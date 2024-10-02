@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(to right, #ff6b6b, #f94d6a, #d74274);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo h1 {
+    margin: 0;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn-buy {
+    background-color: #ff6b6b;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.banner {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #181717;
+    background-image: url("background");
+    background-size: cover;
+}
+
+.banner-content h2 {
+    font-size: 36px;
+}
+
+.banner-content p {
+    font-size: 20px;
+}
+
+.btn-request {
+    background-color: #f94d6a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+
+.service-item {
+    flex: 1;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.service-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about-us {
+    text-align: center;
+    padding: 50px;
+    background-image: url("background");
+    background-size: cover;
+}
+
+.our-services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    /* background-image: url("footer");
+    background-size: cover; */
+}
+
+.our-service-item {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    flex: 1;
+}
+
+.our-service-item img {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    background-size: cover;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+}
